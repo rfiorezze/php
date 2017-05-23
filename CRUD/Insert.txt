@@ -1,0 +1,3 @@
+$link = DBConnect();
+		$query= "INSERT INTO GRUPO (Id,Nome,Id_Campeonato) VALUES (7,'Loucura',8)";
+		var_dump(DBExecute($query));
